@@ -7,14 +7,11 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.webkit.MimeTypeMap;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.pdfreader.data.PdfAdapter;
 import com.example.pdfreader.data.PojoClassPdf;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
